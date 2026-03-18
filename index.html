@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Shop</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/fauna.css">
+</head>
+<body>
+
+    <!-- nav START -->
+    <nav>
+        <div>
+            <a href="../../index.html">
+                <!-- FIX: alt-Attribut ergänzt, width per CSS -->
+                <img src="img/logo.png" alt="Plant Shop Logo" class="nav-logo">
+            </a>
+        </div>
+
+        <!-- Hamburger Button (Mobile) -->
+        <button class="nav-toggle" aria-label="Menü öffnen" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-links">
+            <a href="#">Menu</a>
+            <a href="#">Menu</a>
+            <a href="#">Menu</a>
+            <a href="#">Menu</a>
+        </div>
+    </nav>
+    <!-- nav END -->
+
+    <!-- header START -->
+    <header>
+        <div>
+            <!-- FIX: h4 + h2 ohne h1 → p + h1 -->
+            <p class="header-sub">Get the plants</p>
+            <h1>of your dreams</h1>
+            <a href="#">Free Quote</a>
+        </div>
+    </header>
+    <!-- header END -->
+
+    <!-- section: learn more START -->
+    <section class="learnmore">
+        <div class="content">
+            <h3>Lorem Ipsum</h3>
+
+            <p>Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+                Praesentium ipsum voluptas ad,
+                optio aut illum quam eius 
+                dolores perferendis at
+                excepturi quae accusamus. 
+                Sequi voluptate nam fuga, 
+                consequuntur qui sint.</p>
+
+            <a href="#">Learn more</a>
+        </div>
+
+        <div class="image-stack">
+            <img src="img/ceyda-ciftci-dDVU6D_6T80-unsplash.jpg" alt="Pflanze im Innenraum">
+        </div>
+    </section>
+    <!-- section: learn more END -->
+
+    <!-- section: yellow pics START -->
+    <section class="yellow_pics">
+        <img src="img/jackie-dilorenzo-RyLsRzy9jIA-unsplash.jpg" alt="Pflanze 1">
+        <img src="img/annie-spratt-lRcoPGrwkv0-unsplash.jpg" alt="Pflanze 2">
+        <img src="img/caleb-george-5sF6NrB1MEg-unsplash.jpg" alt="Pflanze 3">
+        <img src="img/annie-spratt-ncQ2sguVlgo-unsplash.jpg" alt="Pflanze 4">
+    </section>
+    <!-- section: yellow pics END -->
+
+    <!-- section: grid gallery START -->
+    <!-- FIX: eigene Klasse statt fragiler nth-last-of-type Selektor -->
+    <section class="grid-gallery">
+        <div class="grid-gallery__inner">
+            <h2>Lorem Ipsum</h2>
+
+            <figure>
+                <img src="img/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="Pflanzenbeschreibung">
+            </figure>
+            <figure>
+                <img src="img/kiki-siepel-BEwxLSN_bKU-unsplash.jpg" alt="Pflanzenbeschreibung">
+            </figure>
+            <figure>
+                <img src="img/paul-green-5lRxNLHfZOY-unsplash.jpg" alt="Pflanzenbeschreibung">
+            </figure>
+            <figure>
+                <img src="img/roonz-nl-ATgfRqpFfFI-unsplash.jpg" alt="Pflanzenbeschreibung">
+            </figure>
+            <figure>
+                <img src="img/tanalee-youngblood-kkJuQhp9Kw0-unsplash.jpg" alt="Pflanzenbeschreibung">
+            </figure>
+            <figure>
+                <img src="img/wolfgang-hasselmann-XdFRghP5MOY-unsplash.jpg" alt="Pflanzenbeschreibung">
+            </figure>
+        </div>
+    </section>
+    <!-- section: grid gallery END -->
+
+    <!-- section: testimonials START -->
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        
+        <div>
+            <article>
+                <img src="img/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg" alt="Kunde 1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </article>
+
+            <article>
+                <img src="img/jorg-karg-R8k4A8z7_lA-unsplash.jpg" alt="Kunde 2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </article>
+
+            <article>
+                <img src="img/rachel-mcdermott-0fN7Fxv1eWA-unsplash.jpg" alt="Kunde 3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </article>
+
+            <article>
+                <img src="img/ryan-jacobson-F2XFjXpNJfg-unsplash.jpg" alt="Kunde 4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </article>
+        </div>
+    </section>
+    <!-- section: testimonials END -->
+
+    <!-- footer START -->
+    <footer>
+        <p>credits</p>
+    </footer>
+    <!-- footer END -->
+
+</body>
+</html>

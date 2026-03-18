@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fauna One';
+    /* FIX: Pfad korrigiert – Fonts liegen in webfonts/ -->  */
+    src: url('../webfonts/FaunaOne-Regular.woff2') format('woff2'),
+         url('../webfonts/FaunaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
