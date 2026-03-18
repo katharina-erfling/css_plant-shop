@@ -1,3 +1,4 @@
+<img width="1024" height="620" alt="Screenshot 2026-03-18 210438" src="https://github.com/user-attachments/assets/a9d06b74-30b1-402f-8aab-5c8bd60ebd25" />
 # 🌿 Plant Shop – UI Prototype
 
 Responsiver Frontend-Prototype eines modernen Plant Shops, gebaut mit purem HTML5 und CSS3. Kein Framework, kein JavaScript – alle Interaktionen und Animationen entstehen ausschließlich durch modernes CSS.
