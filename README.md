@@ -130,7 +130,7 @@ Alle Animationen werden für Nutzer deaktiviert, die das in ihren Systemeinstell
 - **HTML5** – semantisches Markup
 - **CSS3** – Custom Properties, `clamp()`, CSS Grid, Flexbox, Scroll Snap, `backdrop-filter`, `:has()`, `@keyframes`, `prefers-color-scheme`, `prefers-reduced-motion`
 - **Self-hosted Webfont** – Fauna One via `@font-face` mit `font-display: swap`
-- **Kein Framework**, kein JavaScript, kein npm
+- **Kein Framework**, kein JavaScript
 
 ---
 
